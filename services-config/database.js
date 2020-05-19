@@ -1,7 +1,6 @@
 const mysql = require('mysql');
 //permite convertir callbacks a promesas
 const {promisify} = require('util');
-
 const {database} = require('./keys');
 // connect to the database
 
@@ -20,7 +19,7 @@ pool.getConnection((err, connection) => {
             console.error('DATABASE CONNECTION WAS REFUSED')
         }
     }
-    if (connecion) {
+    if (connection) {
         connection.release();
     }
     console.log('DB is connected');
