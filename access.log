@@ -2,3 +2,17 @@
 Cannot read property 'toLowerCase' of undefined 22:37:35 
 ::1 - - [19/May/2020:03:40:16 +0000] "POST /api/products/addProduct HTTP/1.1" 400 169 "-" "PostmanRuntime/7.23.0"
 ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client 22:40:16 
+::1 - - [19/May/2020:03:53:05 +0000] "POST /api/products/addProduct HTTP/1.1" 400 169 "-" "PostmanRuntime/7.23.0"
+ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client 22:53:05 
+::1 - - [19/May/2020:04:28:45 +0000] "POST /api/products/addProduct HTTP/1.1" 400 242 "-" "PostmanRuntime/7.23.0"
+ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`sisinventario`.`productos`, CONSTRAINT `FK_colorId` FOREIGN KEY (`colorId`) REFERENCES `colores` (`id_color`)) 23:28:45 
+::1 - - [21/May/2020:02:49:12 +0000] "GET /api/products/getAllProducts HTTP/1.1" 500 67 "-" "PostmanRuntime/7.24.1"
+reponseCode is not defined 21:49:12 
+::1 - - [21/May/2020:02:49:59 +0000] "GET /api/products/getAllProducts HTTP/1.1" 500 67 "-" "PostmanRuntime/7.24.1"
+reponseCode is not defined 21:49:59 
+::1 - - [21/May/2020:02:52:00 +0000] "GET /api/products/getAllProducts HTTP/1.1" 500 67 "-" "PostmanRuntime/7.24.1"
+reponseCode is not defined 21:52:00 
+::1 - - [21/May/2020:02:56:33 +0000] "GET /api/products/get/2 HTTP/1.1" 400 102 "-" "PostmanRuntime/7.24.1"
+::1 - - [21/May/2020:03:00:49 +0000] "GET /api/product/get/3 HTTP/1.1" 404 156 "-" "PostmanRuntime/7.24.1"
+::1 - - [21/May/2020:03:01:51 +0000] "GET /api/products/get/3 HTTP/1.1" 500 99 "-" "PostmanRuntime/7.24.1"
+Cannot destructure property `id` of 'undefined' or 'null'. 22:01:51 
